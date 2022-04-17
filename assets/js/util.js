@@ -1,9 +1,8 @@
-(function($) {
+/*
+Created By Joseph Hughes | https//www.linkedin.com/in/joseph-hughes-34955a141
+*/
 
-	/**
-	 * Generate an indented list of links from a nav. Meant for use with panel().
-	 * @return {jQuery} jQuery object.
-	 */
+(function($) {
 	$.fn.navList = function() {
 
 		var	$this = $(this);
