@@ -7,5 +7,5 @@ Credits:
 		Font Awesome (fontawesome.io)
 
 	Other:
-		jQuery (jquery.com)
+		
 		Joseph Hughes (https://github.com/JosephPaulHughes)
