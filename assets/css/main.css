@@ -3396,7 +3396,7 @@ table.alt tbody tr td {
     url("../../images/bg.jpg");
   background-size: auto, auto, 100% auto;
   style="object-fit: cover;"
-  background-position: center, center, top center;
+  background-position: center, center, bottom center;
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: scroll, scroll, scroll;
   z-index: -1;
