@@ -2784,7 +2784,7 @@ a.image:hover img {
     position: relative;
     width: 150px;
     height: 150px;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 40%;
     transform-style: preserve-3d;
     animation: rotate 30s linear infinite;
@@ -3095,7 +3095,7 @@ header > h4 + p {
 }
 
 header.major {
-  margin: 0 0 4rem 0;
+  margin: 0 0 3.5rem 0;
   text-align: center;
 }
 
@@ -3970,7 +3970,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .post {
-  padding: 8rem 8rem 6rem 8rem;
+  padding: 3rem 8rem 0rem 8rem;
 }
 
 #main > .post header.major > .date {
@@ -4139,8 +4139,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   cursor: default;
   position: relative;
   margin: 0 auto;
-  width: calc(100% - 4rem);
-  max-width: 72rem;
+/*   width: calc(100% - 4rem);
+  max-width: 72rem; */
   z-index: 2;
 }
 
@@ -4568,7 +4568,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #copyright {
-  color: #ffffff;
   position: relative;
   color: rgba(255, 255, 255, 0.25);
   cursor: default;
@@ -4583,6 +4582,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
+}
+.copyright {
+  
 }
 
 #copyright input,
