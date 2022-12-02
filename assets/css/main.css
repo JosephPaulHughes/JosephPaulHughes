@@ -269,8 +269,9 @@ i {
 }
 
 p {
-  text-align: justify;
-  margin: 0 0 1rem 0;
+  text-align: center;
+  margin: 0 0 0 0;
+  font-weight: 800;
 }
 
 h1,
@@ -2852,6 +2853,7 @@ ul.actions.special {
 
 ul.actions.special li:first-child {
   padding-left: 0;
+  margin-top: 20px;
 }
 
 ul.actions.stacked {
@@ -3106,7 +3108,9 @@ header.major > :last-child {
 header.major > p {
   margin-top: 0;
   text-align: center;
-  font-size: 0.94rem;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 header.major > .date {
@@ -3395,8 +3399,8 @@ table.alt tbody tr td {
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("../../images/bg.jpg");
   background-size: auto, auto, 100% auto;
-  style="object-fit: cover;"
-  background-position: center, center, bottom center;
+  object-fit: cover;
+  /* background-position: center, center, center; */
   background-repeat: repeat, no-repeat, no-repeat;
   background-attachment: scroll, scroll, scroll;
   z-index: -1;
@@ -3480,6 +3484,7 @@ body.is-preload #wrapper.fade-in:before {
 #intro a {
   color: #ffffff;
   border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-style: none;
 }
 
 #intro a:hover {
@@ -3638,9 +3643,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 
   #intro h1 {
-    font-size: 3.25rem;
+    font-size: 2.25rem;
     line-height: 1.1;
     margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
   }
 
   #intro p {
@@ -4130,10 +4139,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #footer {
   color: #717981;
-  display: -moz-flex;
+  /* display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  display: flex;
+  display: flex; */
   background-color: #f5f5f5;
   color: #909498;
   cursor: default;
@@ -4153,6 +4162,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #footer a {
   color: #717981;
   border-bottom-color: rgba(113, 121, 129, 0.5);
+  border-style: none;
 }
 
 #footer a:hover {
@@ -4313,6 +4323,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #footer ul.icons.alt li .icon:before {
   box-shadow: inset 0 0 0 2px #e2e2e2;
+  text-align-last: center;
 }
 
 #footer ul.icons.alt li a.icon:hover:before {
@@ -4432,7 +4443,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  padding: 3.15rem 4rem;
+  padding: 2.1rem 4rem;
 }
 
 #footer > section.split.contact > section > * {
@@ -4449,6 +4460,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -ms-flex-grow: 0;
   flex-grow: 0;
   width: 6rem;
+  text-align: center;
+  place-self: center;
 }
 
 #footer > section.split.contact > section > :last-child {
@@ -4463,11 +4476,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #footer > section.split.contact > section:first-child {
-  padding: 4rem 4rem 3rem 4rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 
 #footer > section.split.contact > section:last-child {
-  padding: 3rem 4rem 4rem 4rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 
 #footer > section.split.contact > section.alt {
@@ -4475,10 +4488,12 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-align-items: -webkit-flex-start;
   -ms-align-items: -ms-flex-start;
   align-items: flex-start;
+  padding: 2.5rem 4rem 2.5rem 4rem;
 }
 
-#footer > section.split.contact > section. > :last-child {
+#footer > section.split.contact > section > :last-child {
   margin-top: -0.325rem;
+  text-align-last: left;
 }
 
 #footer form label,
@@ -4583,9 +4598,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   max-width: 72rem;
   z-index: 2;
 }
-.copyright {
-  
-}
+
 
 #copyright input,
 #copyright select,
@@ -4870,5 +4883,26 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     transform: translateX(0);
     box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
     visibility: visible;
+  }
+}
+
+.copyrightsection {
+  background-color: #2e3238;
+}
+
+#footer > section:last-child {
+  padding: 20px;
+  margin-left: -3px;
+}
+
+.split .contact .alt p {
+
+}
+
+@media screen and (max-width: 550px) {
+  header.major > p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
   }
 }
