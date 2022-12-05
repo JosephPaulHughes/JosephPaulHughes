@@ -225,7 +225,7 @@ h6 {
   background-size: cover;
 }
 
-.img-fluid {
+.row .col-lg-4 .img-fluid {
   border-radius: 15px !important;
 }
 
