@@ -3,9 +3,6 @@
 
 Credits:
 
-	Icons:
-		Font Awesome (fontawesome.io)
-
 	Other:
 		
 		Joseph Hughes (https://github.com/JosephPaulHughes)
